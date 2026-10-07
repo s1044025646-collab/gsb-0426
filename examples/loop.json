@@ -1,0 +1,10 @@
+{
+  "nodes": ["s", "h", "body", "exit"],
+  "entry": "s",
+  "edges": [
+    { "from": "s", "to": "h" },
+    { "from": "h", "to": "body" },
+    { "from": "body", "to": "h" },
+    { "from": "h", "to": "exit" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "nodes": ["s", "a", "b", "j", "z"],
+  "entry": "s",
+  "edges": [
+    { "from": "s", "to": "a" },
+    { "from": "s", "to": "b" },
+    { "from": "a", "to": "j" },
+    { "from": "b", "to": "j" },
+    { "from": "j", "to": "z" },
+    { "from": "s", "to": "j" }
+  ]
+}
