@@ -1,0 +1,21 @@
+{
+  "name": "dominance-backend",
+  "version": "1.0.0",
+  "description": "Windows 本地控制流支配关系与支配边界核验后端（TypeScript + Node.js + SQLite）",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist-test",
+    "start": "node dist/cli.js serve",
+    "demo": "npm run build && node dist/cli.js demo",
+    "cli": "node dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0"
+  }
+}
